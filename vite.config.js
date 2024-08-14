@@ -21,7 +21,7 @@ export default defineConfig({
 
   plugins: [
     //vue(),
-    liveReload(__dirname+'/**/*.php')
+    liveReload(__dirname + '/**/*.php')
   ],
 
   // config
@@ -44,9 +44,9 @@ export default defineConfig({
     // our entry
     rollupOptions: {
       input: {
-        main: resolve( __dirname + '/main.js')
+        main: resolve(__dirname + '/main.js')
       },
-      
+
       /*
       output: {
           entryFileNames: `[name].js`,
@@ -90,7 +90,7 @@ export default defineConfig({
       host: 'localhost',
       //port: 443
     },
-    
+
   },
 
   // required for in-browser template compilation
