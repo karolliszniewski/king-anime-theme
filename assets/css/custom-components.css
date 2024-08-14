@@ -1,0 +1,33 @@
+@layer components {
+    .post{
+        @apply  w-[95%] lg:w-[33%] mx-auto
+    }
+    .card {
+        @apply h-[20rem] w-[95%] bg-[#121315] opacity-0 m-auto mb-5 lg:mr-10 rounded-xl relative overflow-hidden shadow-lg transition-colors duration-300 border-[#303035] border-4 hover:border-[#aeaebb];
+    }
+
+    .card__img{
+        @apply w-full h-full object-cover transition-transform duration-500 transform hover:scale-105;
+    }
+
+    .card__info{
+        @apply absolute bg-[#242428] bottom-0 w-full h-10 flex justify-center items-center;
+    }
+
+    .card__btn{
+        @apply ml-5 bg-yellow-theme px-2 inline-block font-semibold rounded-sm;
+    }
+
+
+    .skills__border{
+        @apply h-40 w-[6rem] md:h-64 md:w-[9.5rem] m-3 translate-x-32 opacity-0 mb-6 md:mb-0
+    }
+
+    .skills__container{
+        @apply h-32 w-[5rem] md:h-56 md:w-[10rem] border border-[#696969] rounded-full overflow-hidden flex justify-center items-center transition-all hover:border-yellow-theme
+    }
+
+    .skills__text{
+        @apply text-white w-full flex items-center justify-center mt-3
+    }
+}
