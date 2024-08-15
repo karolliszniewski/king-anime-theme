@@ -1,6 +1,6 @@
  
 
- <footer  class="h-20 w-full mt-5 bg-[#2F2F33]">
+ <footer  class="h-20 w-full mt-5 bg-stone-gray">
  <?php wp_footer() ?>
   <div class="mx-10 h-full">
     <div class="max-w-screen-xl mx-auto flex h-full items-center">

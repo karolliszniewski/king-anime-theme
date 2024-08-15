@@ -13,8 +13,3 @@
 body.admin-bar {
     max-height: calc(100vh - 32px);
 }
-
-
-
-@import url('https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
-@import url('https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css');

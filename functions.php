@@ -28,3 +28,13 @@ function karolPortfolio_first_instance_of_classes()
     KarolPortfolio\Inc\KarolPortfolio::get_instance();
 }
 karolPortfolio_first_instance_of_classes();
+
+
+
+
+// support woocommerce
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+   add_theme_support( 'woocommerce' );
+}          

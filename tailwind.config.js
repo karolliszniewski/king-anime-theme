@@ -18,9 +18,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'stone-gray': '#3A3A3E',
-        'background-base' : '#242428',
-        'yellow-theme': '#FFDD95'
+        'stone-gray': '#353C47',
+        'background-base': '#3C4A5F',
+        'yellow-theme': '#5795F7'
       },
       height: {
         'full-without-header-mobile': 'calc(100vh - 3rem)',
